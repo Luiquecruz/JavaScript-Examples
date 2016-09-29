@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Conditionals JS</title>
+
+</head>
+<body>
+	
+	<!-- Eg. 1 -->
+	<script type="text/javascript">
+		var x = 5;
+		if (x == 5) {
+			alert("That's It!!!")
+			document.write("The Value of (X) is equal to " + x + ".");
+		} else {
+			alert("Not this time...")
+			document.write("The Value of (X) is different to 5!");
+		}
+	</script>
+
+	<br/><br/>
+
+	<!-- Eg. 2 -->
+	<script type="text/javascript">
+		var color = 'black';
+		if (color == 'red') {
+			document.write('The color is red');
+		} else if (color == 'blue') {
+			document.write('The color is blue');
+		} else {
+			document.write('the color is not red or blue');
+		}	
+	</script>
+
+	<br/><br/>
+
+	<!-- Eg. 3 -->
+	<script type="text/javascript">
+		var x = 4;
+		switch(x) {
+			case 2:
+				document.write('x is 2');
+				break;
+			case 6:
+				document.write('x is 6');
+				break;
+			default:
+				document.write('x is not 2 or 6');	
+		}
+	</script>
+
+	<br/><br/>
+
+	<!-- Eg. 4 -->
+	<script type="text/javascript">
+		var day = new Date().getDay();
+		switch(day) {
+			case 0:
+				x="Today it's Sunday";
+				break;
+			case 1:
+				x="Today it's Monday";
+				break;
+			case 2:
+				x="Today it's Tuesday";
+				break;
+			case 3:
+				x="Today it's Wednesday";
+				break;
+			case 4:
+				x="Today it's Thursday";
+				break;
+			case 5:
+				x="Today it's Friday";
+				break;
+			case 6:
+				x="Today it's Saturnday";
+				break;
+		}
+		alert(x);
+	</script>
+
+</body>
+</html>

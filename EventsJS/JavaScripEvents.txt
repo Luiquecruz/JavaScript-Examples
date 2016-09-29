@@ -1,0 +1,34 @@
+JavaScrip Events
+
+abort			Cancels loading of an image.
+
+blur			Input focus is removed from a form element.
+
+click			Runs some action/function when click on a link or form element.
+
+change			The value of a form field is changed by the user
+
+error			An error happens during load of a document or image
+
+focus			Input focus is given to a form element or a window
+
+load 			The page is loaded into navigator
+
+mouseout		Moves the mouse off of a link or clickable area
+
+mouseover		Moves the mouse over a hypertext area
+
+reset			Clears a form using the reset button
+
+select			Selects a form element's field
+
+submit			Submit an action or form when clicked on the button
+
+unload			Occurs when the user leaves a page
+
+JavaScript Event Handlers
+
+onclick
+onmouseover
+onfocus
+etc...

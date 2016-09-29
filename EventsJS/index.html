@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Events JS</title>
+	
+	<!-- Eg.1 -->
+	<script type="text/javascript">
+		function sayHi() {
+			alert("Hi");
+		}
+
+		function changeMe() {
+			var heading = document.getElementById('heading');
+			heading.innerHTML = "Are you kidding?";
+		}
+
+		function changeMeBack() {
+			document.getElementById('heading').innerHTML = 'This is a heading';
+		}
+	</script>
+
+	<!-- Eg.2 -->
+	<script type="text/javascript">
+		function focusIn() {
+			alert("I'm in the field");
+		}
+
+		function blurOut() {
+			alert("I'm out of the field");
+		}
+	</script>
+</head>
+<body>
+
+	<!-- test 1 -->
+	<div>
+		<h1 id="heading" onmouseover="changeMe()"" onmouseout="changeMeBack()">This is a heading</h1>
+		<button onclick="sayHi()">Click Me</button>
+	</div>
+	
+	<!-- test 2 -->
+	<form>
+		Name: <input onfocus="focusIn()" onblur="blurOut()" type="text" name="name"/><br/>
+		<input type="submit" name="submit"/>
+	</form>
+
+</body>
+</html>
